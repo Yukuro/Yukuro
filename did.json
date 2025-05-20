@@ -20,5 +20,12 @@
     "did:web:yukuro.github.io:Yukuro#04329296d8068c8c295768dac3f769d6fce50160489ce168875cf0e33c389802f2030fbfff881957266eb14ef02f7e9fd25d2670d24c25489fb1ad5b90c1b9375e"
   ],
   "keyAgreement": [],
-  "service": []
+  "service": [
+    {
+      "id": "#messaging-local",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://localhost:3332/messaging",
+      "description": null
+    }
+  ]
 }
