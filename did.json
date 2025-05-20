@@ -1,3 +1,24 @@
 {
-  "id": "did:web:yukuro.github.io:Yukuro"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+  ],
+  "id": "did:web:yukuro.github.io:Yukuro",
+  "verificationMethod": [
+    {
+      "id": "did:web:yukuro.github.io:Yukuro#04329296d8068c8c295768dac3f769d6fce50160489ce168875cf0e33c389802f2030fbfff881957266eb14ef02f7e9fd25d2670d24c25489fb1ad5b90c1b9375e",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:yukuro.github.io:Yukuro",
+      "publicKeyHex": "04329296d8068c8c295768dac3f769d6fce50160489ce168875cf0e33c389802f2030fbfff881957266eb14ef02f7e9fd25d2670d24c25489fb1ad5b90c1b9375e"
+    }
+  ],
+  "authentication": [
+    "did:web:yukuro.github.io:Yukuro#04329296d8068c8c295768dac3f769d6fce50160489ce168875cf0e33c389802f2030fbfff881957266eb14ef02f7e9fd25d2670d24c25489fb1ad5b90c1b9375e"
+  ],
+  "assertionMethod": [
+    "did:web:yukuro.github.io:Yukuro#04329296d8068c8c295768dac3f769d6fce50160489ce168875cf0e33c389802f2030fbfff881957266eb14ef02f7e9fd25d2670d24c25489fb1ad5b90c1b9375e"
+  ],
+  "keyAgreement": [],
+  "service": []
 }
